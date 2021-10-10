@@ -1,0 +1,4 @@
+{
+  "#####": "アイテム状態でもブロックのモデルを使います。",
+  "parent": "gataminmod:block/gatamin_block"
+}

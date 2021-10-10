@@ -1,0 +1,8 @@
+{
+  "#######": "variantsはMinecraftのモデルをまとめたもの。ブロック以外にも開閉するドアや生き物といった複雑な形のものがあるので、使い回せるように形だけ定義されている。",
+  "variants": {
+    "": {
+      "model": "gataminmod:block/gatamin_block"
+    }
+  }
+}

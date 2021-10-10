@@ -1,0 +1,24 @@
+{
+  "##": "ルートテーブルとは、自然生成のチェストや釣りや敵を倒した時落とすアイテムを決める設定です",
+  "#####": "ブロックからのドロップ設定",
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "####": "抽選回数は1で、アイテムはgatamin_blockのみ。",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gataminmod:gatamin_block"
+        }
+      ],
+      "##": "アイテムが選ばれる条件。今回は爆発のときにドロップする。",
+      "conditions": [
+        {
+          "#####": "爆発によって破壊された際に 1/威力 の割合でドロップする",
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

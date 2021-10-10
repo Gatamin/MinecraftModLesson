@@ -1,0 +1,8 @@
+{
+  "#####": "ベースとなる形を定義します",
+  "parent": "minecraft:block/cube_all",
+  "######": "普通の立方体のすべての面に同じ画像を貼り付けます。",
+  "textures": {
+    "all": "gataminmod:block/gatamin_block"
+  }
+}
